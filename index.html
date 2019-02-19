@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jsConsoleV3</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./script/consola.js"></script>
+    
+</head>
+<body>
+    <div id="consola"> </div>
+</body>
+
+<script>
+
+    var a = new Consola("#consola");
+    
+    a.start();
+    
+    a.exec(`
+        console.log("Hola Mundo by jeancode");
+    `);
+    
+    //a.clear();
+    
+</script>
+</html>
